@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="3dp"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/purple_200"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/rela01"
+            android:background="@drawable/frame01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/nipguru"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:hint="nip"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/namaguru"
+                android:layout_width="100dp"
+                android:textColor="@color/white"
+                android:layout_toRightOf="@+id/nipguru"
+                android:layout_height="wrap_content"
+                android:hint="nama" />
+            <TextView
+                android:id="@+id/statusguru"
+                android:layout_width="70dp"
+                android:textColor="@color/white"
+                android:layout_toRightOf="@+id/namaguru"
+                android:layout_height="wrap_content"
+                android:hint="status" />
+
+            <TextView
+                android:id="@+id/alamatguru"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/statusguru"
+                android:hint="alamat"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/kotaguru"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/alamatguru"
+                android:hint="kota"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

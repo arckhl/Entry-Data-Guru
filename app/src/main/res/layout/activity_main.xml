@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="ENTRY DATA GURU"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/teksnip"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="NIP"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editnip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/teksnip"
+            android:hint="NIP"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/teksnama"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Nama Guru"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editnama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/teksnama"
+            android:hint="Nama "
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/teksstatus"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Status"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editstatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/teksstatus"
+            android:hint="Status"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/teksalamat"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Alamat"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editalamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/teksalamat"
+            android:hint="Alamat"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tekskota"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Kota"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editskota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/tekskota"
+            android:hint="Kota"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/tombolsave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="simpan" />
+        <Button
+            android:id="@+id/tombolview"
+            android:text="VIEW"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/tombolsave"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</LinearLayout>
